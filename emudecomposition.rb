@@ -15,8 +15,8 @@ def fluxoptimization(inputfilecalc,
   arraysvaluescalc = []
   arrayvaluesmeasured = []
   minimizie = []
-  fileopen.each { | iter | puts arraysvalues.push(iter.to_i) }
-  fileopenmeasured.each { | iter | puts arrayvaluesmeasured.push(iter.to_i) }
+  fileopen.each { | iter | arraysvalues.push(iter.to_i) }
+  fileopenmeasured.each { | iter | arrayvaluesmeasured.push(iter.to_i) }
    for i in 0..arraysvaluescalc.length
      for j in 0..arrayvaluesmeasured.length
      end
