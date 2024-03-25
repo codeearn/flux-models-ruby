@@ -11,15 +11,14 @@ def fluxoptimization(inputfilecalc,
   also EMU decomposition algorithm. check if any bug fix and add the minimize
     and the test dataset. 
   =END
-  
   fileopencalc = open(inputfilecalc)
   fileopenmeasured = open(inputfilemeasured)
   error = error
   arraysvaluescalc = []
   arrayvaluesmeasured = []
   minimizie = []
-  fileopen.each { | iter | puts arraysvalues.push(iter.to_i) }
-  fileopenmeasured.each { | iter | puts arrayvaluesmeasured.push(iter.to_i) }
+  fileopen.each { | iter | arraysvalues.push(iter.to_i) }
+  fileopenmeasured.each { | iter | arrayvaluesmeasured.push(iter.to_i) }
    for i in 0..arraysvaluescalc.length
      for j in 0..arrayvaluesmeasured.length
      end
