@@ -1,5 +1,6 @@
 # cobraruby
-implementation of mathematical models in ruby bindings and also as shards for the crystal. This repository will be updated regularly for the complete integration. Integrating the C++ ruby bindings also for the compiler to work faster. 
+implementation of mathematical models in ruby bindings and also as shards for the crystal. This repository will be updated regularly for the complete integration. Integrating the C++ ruby bindings also for the compiler to work faster. All mathematical functions coded for metabolic modelling.  
+
 ```
 def fluxoptimization(inputfilecalc, 
                       inputfilemeasured, error)
