@@ -3,7 +3,7 @@ implementation of mathematical models in ruby bindings and also as shards for th
 
 > the following algorithm have been coded and implemented and additions will be made continously.
 
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
